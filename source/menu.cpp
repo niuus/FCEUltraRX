@@ -252,27 +252,6 @@ WindowPrompt(const char *title, const char *msg, const char *btn1Label, const ch
 	return choice;
 }
 
-#ifdef HW_RVL
-/****************************************************************************
- * EmulatorUpdate
- *
- * Prompts for confirmation, and downloads/installs updates
- ***************************************************************************/
-static void *
-EmulatorUpdate (void *arg)
-{
-	bool installUpdate = WindowPrompt(
-		"Update Available",
-		"An update is available!",
-		"Update now",
-		"Update later");
-	if(installUpdate)
-		if(DownloadUpdate())
-			ExitRequested = 1;
-	return NULL;
-}
-#endif
-
 /****************************************************************************
  * UpdateGUI
  *
@@ -312,15 +291,6 @@ UpdateGUI (void *arg)
 		mainWindow->Update(&userInput[2]);
 		mainWindow->Update(&userInput[1]);
 		mainWindow->Update(&userInput[0]);
-
-		#ifdef HW_RVL
-		if(updateFound)
-		{
-			updateFound = false;
-			if(!loadingFile)
-				LWP_CreateThread (&updatethread, EmulatorUpdate, NULL, NULL, 0, 70);
-		}
-		#endif
 
 		if(ExitRequested || ShutdownRequested)
 		{
