@@ -3551,6 +3551,7 @@ static int MenuSettingsFile()
 	sprintf(options.name[i++], "Artworks Folder");
 	sprintf(options.name[i++], "Auto Load");
 	sprintf(options.name[i++], "Auto Save");
+	sprintf(options.name[i++], "Append Auto to .SAV");
 	options.length = i;
 
 	for(i=0; i < options.length; i++)
@@ -3632,6 +3633,7 @@ static int MenuSettingsFile()
 			case 7:
 				OnScreenKeyboard(GCSettings.ArtworkFolder, MAXPATHLEN);
 				break;
+
 			case 8:
 				GCSettings.AutoLoad++;
 				if (GCSettings.AutoLoad > 2)
@@ -3642,6 +3644,12 @@ static int MenuSettingsFile()
 				GCSettings.AutoSave++;
 				if (GCSettings.AutoSave > 3)
 					GCSettings.AutoSave = 0;
+				break;
+
+			case 10:
+				GCSettings.AppendAuto++;
+				if (GCSettings.AppendAuto > 1)
+					GCSettings.AppendAuto = 0;
 				break;
 		}
 
@@ -3716,6 +3724,9 @@ static int MenuSettingsFile()
 			else if (GCSettings.AutoSave == 1) sprintf (options.value[9],"RAM");
 			else if (GCSettings.AutoSave == 2) sprintf (options.value[9],"State");
 			else if (GCSettings.AutoSave == 3) sprintf (options.value[9],"Both");
+
+			if (GCSettings.AppendAuto == 0) sprintf (options.value[10], "Off");
+			else if (GCSettings.AppendAuto == 1) sprintf (options.value[10], "On");
 
 			optionBrowser.TriggerUpdate();
 		}
