@@ -608,6 +608,17 @@ bool LoadPrefs()
 	if(prefFound)
 		FixInvalidSettings();
 
+	// attempt to create screenshots directory if it doesn't exist
+	if(GCSettings.LoadMethod != DEVICE_AUTO) {
+			char dirPath[MAXPATHLEN];
+			sprintf(dirPath, "%s%s", pathPrefix[GCSettings.LoadMethod], GCSettings.ScreenshotsFolder);
+			CreateDirectory(dirPath);
+			sprintf(dirPath, "%s%s", pathPrefix[GCSettings.LoadMethod], GCSettings.CoverFolder);
+			CreateDirectory(dirPath);
+			sprintf(dirPath, "%s%s", pathPrefix[GCSettings.LoadMethod], GCSettings.ArtworkFolder);
+			CreateDirectory(dirPath);
+	}
+
 	ResetText();
 	return prefFound;
 }
