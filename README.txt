@@ -52,6 +52,7 @@ https://github.com/niuus/fceurx/releases
 * Fixes to get it working (i think). [libertyernie]
 * Update goombasav. [libertyernie]
 * Edit fceuram to compile with newer goombasav. [libertyernie]
+* Remove sounds and music from GUI to save resources (specially for the GC port).
 
 [1.1.0 - December 30, 2018]
 * Preferences saving.
