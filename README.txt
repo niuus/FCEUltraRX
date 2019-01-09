@@ -1,10 +1,10 @@
 ¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
 
                                  - FCE Ultra RX -
-						https://github.com/niuus/fceurx
-								Based/forked from:
-						https://github.com/dborth/fceugx
-								(Under GPL License)
+			https://github.com/niuus/fceurx
+				Based/forked from:
+			https://github.com/dborth/fceugx
+				(Under GPL License)
 
 ¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
 
@@ -609,21 +609,21 @@ Timing - NTSC or PAL (Depends if you're running a PAL or NTSC game)
 -=[ Credits ]=-
 
 			Coding & menu design		Tantric
-			Menu artwork				the3seashells
-			Menu sound					Peter de Man
-			Logo design					mvit
+			Menu artwork			the3seashells
+			Logo				NiuuS
+			Logo design			mvit
 			Additional updates/fixes	Zopenko, Burnt Lasagna, Askot
-										emukidid, NiuuS, Tanooki16
+							emukidid, NiuuS, Tanooki16
 
 			
 			¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 			FCE Ultra GX GameCube		SoftDev,
-										askot & dsbomb
+							askot & dsbomb
 
-			FCE Ultra					Xodnizel
-			Original FCE				BERO
-			libogc/devkitPPC			shagkur & wintermute
-			FreeTypeGX					Armin Tamzarian
+			FCE Ultra			Xodnizel
+			Original FCE			BERO
+			libogc/devkitPPC		shagkur & wintermute
+			FreeTypeGX			Armin Tamzarian
 
 			And many others who have contributed over the years!
  
