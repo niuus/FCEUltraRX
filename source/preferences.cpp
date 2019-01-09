@@ -605,8 +605,9 @@ bool LoadPrefs()
 
 	prefLoaded = true; // attempted to load preferences
 
-	if(prefFound)
+	if(prefFound) {
 		FixInvalidSettings();
+	}
 
 	// attempt to create screenshots directory if it doesn't exist
 	if(GCSettings.LoadMethod != DEVICE_AUTO) {
