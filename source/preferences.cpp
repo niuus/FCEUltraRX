@@ -131,7 +131,7 @@ preparePrefsData ()
 	createXMLSetting("gamegenie", "Game Genie", toStr(GCSettings.gamegenie));
 	createXMLSetting("ScreenshotsFolder", "Screenshots Folder", GCSettings.ScreenshotsFolder);
 	createXMLSetting("CoverFolder", "Covers Folder", GCSettings.CoverFolder);
-	createXMLSetting("ArtworkFolder", "Artworks Folder", GCSettings.ArtworkFolder);
+	createXMLSetting("ArtworkFolder", "Artwork Folder", GCSettings.ArtworkFolder);
 	createXMLSetting("ImageFolder", "Image Folder", GCSettings.ImageFolder);
 
 	createXMLSection("Network", "Network Settings");
@@ -452,7 +452,7 @@ DefaultSettings ()
 	sprintf (GCSettings.CheatFolder, "%s/cheats", APPFOLDER); // Path to cheat files
 	sprintf (GCSettings.ScreenshotsFolder, "%s/screenshots", APPFOLDER); // Path to screenshots files
 	sprintf (GCSettings.CoverFolder, "%s/covers", APPFOLDER); // Path to cover files
-	sprintf (GCSettings.ArtworkFolder, "%s/artworks", APPFOLDER); // Path to artwork files
+	sprintf (GCSettings.ArtworkFolder, "%s/artwork", APPFOLDER); // Path to artwork files
 	sprintf (GCSettings.ImageFolder, "%s/covers", APPFOLDER);
 	GCSettings.AutoLoad = 1; // Auto Load RAM
 	GCSettings.AutoSave = 1; // Auto Save RAM

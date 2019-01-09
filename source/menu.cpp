@@ -763,10 +763,10 @@ static void WindowCredits(void * ptr)
 	int numEntries = 27;
 	GuiText * txt[numEntries];
 
-	txt[i] = new GuiText("Credits", 30, (GXColor){0, 0, 0, 255});
+	txt[i] = new GuiText("Credits", 28, (GXColor){0, 0, 0, 255});
 	txt[i]->SetAlignment(ALIGN_CENTRE, ALIGN_TOP); txt[i]->SetPosition(0,y); i++; y+=24;
 
-	txt[i] = new GuiText("Official Site: https://github.com/dborth/fceugx", 20, (GXColor){0, 0, 0, 255});
+	txt[i] = new GuiText("Official Site: https://github.com/dborth/fceugx", 18, (GXColor){0, 0, 0, 255});
 	txt[i]->SetAlignment(ALIGN_CENTRE, ALIGN_TOP); txt[i]->SetPosition(0,y); i++; y+=32;
 
 	txt[i]->SetPresets(20, (GXColor){0, 0, 0, 255}, 0,
@@ -780,9 +780,9 @@ static void WindowCredits(void * ptr)
 	txt[i]->SetPosition(40,y); i++;
 	txt[i] = new GuiText("the3seashells");
 	txt[i]->SetPosition(335,y); i++; y+=24;
-	txt[i] = new GuiText("Menu sound");
+	txt[i] = new GuiText("Logo");
 	txt[i]->SetPosition(40,y); i++;
-	txt[i] = new GuiText("Peter de Man");
+	txt[i] = new GuiText("NiuuS");
 	txt[i]->SetPosition(335,y); i++; y+=24;
 	txt[i] = new GuiText("Logo");
 	txt[i]->SetPosition(40,y); i++;
@@ -3518,7 +3518,7 @@ static int MenuSettingsFile()
 	sprintf(options.name[i++], "Cheats Folder");
 	sprintf(options.name[i++], "Screenshots Folder");
 	sprintf(options.name[i++], "Covers Folder");
-	sprintf(options.name[i++], "Artworks Folder");
+	sprintf(options.name[i++], "Artwork Folder");
 	sprintf(options.name[i++], "Auto Load");
 	sprintf(options.name[i++], "Auto Save");
 	sprintf(options.name[i++], "Append Auto to .SAV");
@@ -3902,7 +3902,7 @@ static int MenuSettingsMenu()
 					snprintf(GCSettings.ImageFolder, MAXJOLIET, "%s", GCSettings.CoverFolder);
 					break; 
 				case 2:	
-					sprintf(options.value[6], "Artworks");
+					sprintf(options.value[6], "Artwork");
 					snprintf(GCSettings.ImageFolder, MAXJOLIET, "%s", GCSettings.ArtworkFolder);
 					break;
 			}			
