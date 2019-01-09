@@ -1,10 +1,10 @@
 ¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
 
                                  - FCE Ultra RX -
-			https://github.com/niuus/fceurx
-			        Based/forked from:
-			https://github.com/dborth/fceugx
-			       (Under GPL License)
+						https://github.com/niuus/fceurx
+								Based/forked from:
+						https://github.com/dborth/fceugx
+								(Under GPL License)
 
 ¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
 
@@ -40,6 +40,15 @@ https://github.com/niuus/fceurx/releases
 ×—–•—–•—–•—–• –•—–•—–•—–•—–•—–•—–•—–•—–•—–•— •—–•—–•—–•—–•—–•—–•—–•—-•—–•-–•¬
 |0O×øo·                         UPDATE HISTORY                        ·oø×O0|
 `¨•¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨'
+
+[1.4.0 - January 08, 2019]
+* Allow loader to pass 2 arguments instead of 3 for autoload. [libertyernie]
+* Automatically create preview image dirs if they don't exist. [Tantric]
+* Remove update check.
+* Change "Artworks" to "Artwork".
+
+[1.3.0 - January 06, 2019]
+* Port option to not append "Auto" from vbagx. [libertyernie]
 
 [1.2.0 - January 05, 2019]
 * Add PocketNES interoperability. [libertyernie]
@@ -599,28 +608,28 @@ Timing - NTSC or PAL (Depends if you're running a PAL or NTSC game)
 
 -=[ Credits ]=-
 
-	Coding & menu design		  Tantric
-	Menu artwork			  the3seashells
-	Menu sound			  Peter de Man
-	Logo design			  mvit
-	Additional updates/fixes	  Zopenko, Burnt Lasagna, Askot
-			                  emukidid, NiuuS, Tanooki16
+			Coding & menu design		Tantric
+			Menu artwork				the3seashells
+			Menu sound					Peter de Man
+			Logo design					mvit
+			Additional updates/fixes	Zopenko, Burnt Lasagna, Askot
+										emukidid, NiuuS, Tanooki16
 
+			
+			¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+			FCE Ultra GX GameCube		SoftDev,
+										askot & dsbomb
 
-	¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
-	FCE Ultra GX GameCube		  SoftDev,
-					  askot & dsbomb
+			FCE Ultra					Xodnizel
+			Original FCE				BERO
+			libogc/devkitPPC			shagkur & wintermute
+			FreeTypeGX					Armin Tamzarian
 
-	FCE Ultra			  Xodnizel
-	Original FCE			  BERO
-	libogc/devkitPPC		  shagkur & wintermute
-	FreeTypeGX			  Armin Tamzarian
-
-	And many others who have contributed over the years!
+			And many others who have contributed over the years!
  
 ¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
  
-                                FCEURX Web Site
-                        https://github.com/niuus/fceurx
+                                  FCEURX Web Site
+                          https://github.com/niuus/fceurx
  
 ¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
