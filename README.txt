@@ -18,7 +18,7 @@ https://github.com/niuus/fceurx/releases
 
 -=[ Features ]=-
 
-* NES Compatibility based on FCEUX 2.2.0+ (r2951)
+* NES Compatibility based on FCEUX 2.2.3+ (git 21c0971)
 * Wiimote, Nunchuk, Wii Classic/Classic Pro, and Gamecube controller support
 * Wii U Pro, NES and SNES Classic controller support
 * 1-4 Players Support
@@ -31,7 +31,7 @@ https://github.com/niuus/fceurx/releases
 * SD, USB, DVD, SMB, Zip, and 7z support
 * Custom controller configurations
 * 16:9 widescreen support
-* Original/filtered/unfiltered video modes
+* Original/filtered (Sharp & Soft))/Unfiltered video modes
 * Turbo Mode - up to 2x the normal speed
 * IPS/UPS automatic patching support
 * Open Source!
@@ -40,6 +40,11 @@ https://github.com/niuus/fceurx/releases
 ×—–•—–•—–•—–• –•—–•—–•—–•—–•—–•—–•—–•—–•—–•— •—–•—–•—–•—–•—–•—–•—–•—-•—–•-–•¬
 |0O×øo·                         UPDATE HISTORY                        ·oø×O0|
 `¨•¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨'
+
+[1.5.0 - January 10, 2019]
+* Core updated to FCEUX 2.2.3+ (git 21c0971). [Tantric]
+* Add soft and sharp video filtering options. [Tantric]
+* Update color palettes. [Tanooki16]
 
 [1.4.0 - January 08, 2019]
 * Allow loader to pass 2 arguments instead of 3 for autoload. [libertyernie]
