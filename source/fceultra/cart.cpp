@@ -76,6 +76,8 @@ uint8 geniech[3];
 
 uint32 genieaddr[3];
 
+CartInfo *currCartInfo;
+
 static INLINE void setpageptr(int s, uint32 A, uint8 *p, int ram) {
 	uint32 AB = A >> 11;
 	int x;
@@ -240,7 +242,7 @@ void setchr2r(int r, uint32 A, uint32 V) {
 		PPUCHRRAM &= ~(3 << (A >> 10));
 }
 
-void setchr4r(int r, unsigned int A, unsigned int V) {
+void setchr4r(int r, uint32 A, uint32 V) {
 	if (!CHRptr[r]) return;
 	FCEUPPU_LineUpdate();
 	V &= CHRmask4[r];
