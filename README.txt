@@ -41,6 +41,18 @@ https://github.com/niuus/fceurx/releases
 |0O×øo·                         UPDATE HISTORY                        ·oø×O0|
 `¨•¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨'
 
+[1.6.0 - January 17, 2019]
+* New color palettes added:
+Restored Wii Virtual Console (removes 30% black from every color).
+PAL / NESCAP / HYBRID (a balance between Composite and RGB).
+
+Thanks to SuperrSonic, FirebrandX, RGBSource and Tanooki16 for all
+the palettes included.
+
+* Add DSP halt-unhalt when switching between sound modes [Tantric]
+* Clean up audio code a little [Tantric]
+* Fix audio pop when returning to a game [Tantric]
+
 [1.5.0 - January 10, 2019]
 * Core updated to FCEUX 2.2.3+ (git 21c0971). [Tantric]
 * Add soft and sharp video filtering options. [Tantric]

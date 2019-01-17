@@ -2,18 +2,19 @@
 <app version="2">
   <name>FCE Ultra RX</name>
   <coder>NiuuS, Tantric</coder>
-  <version>1.5.0</version>
-  <release_date>20190110</release_date>
+  <version>1.6.0</version>
+  <release_date>20190117</release_date>
   <short_description>Nintendo Emulator</short_description>
    <long_description>Featuring:
-- New palettes: Smooth / PVM Style D93 / Composite Direct
-NES Classic / PC-10 / Sony CXA / Wavebeam / VS. System
 - Screenshot/Cover/Artwork display.
-- Screenshot button.
 - Sharp and soft filters.
 - Wii U Pro Controller support.
 - Classic Controllers support (NES / SNES)
 - Wiiflow plugin mode.
+- Screenshot button.
+- New palettes: Smooth / PVM Style D93 / Composite NTSC
+NES Classic / Wii Virtual Console / PlayChoice-10 /PAL
+Sony CXA2025AS / NESCAP / HYBRID / Wavebeam / VS. System
    </long_description>
    <ahb_access/>
  </app>
