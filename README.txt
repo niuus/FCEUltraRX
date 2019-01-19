@@ -40,6 +40,11 @@ https://github.com/niuus/fceurx/releases
 ×—–•—–•—–•—–• –•—–•—–•—–•—–•—–•—–•—–•—–•—–•— •—–•—–•—–•—–•—–•—–•—–•—-•—–•-–•¬
 |0O×øo·                         UPDATE HISTORY                        ·oø×O0|
 `¨•¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨'
+[1.7.0 - January 19, 2019]
+* Prevent infinite loop loading cheats. [Tantric]
+* Go Back is no longer the first item highlighted for Settings. [Tantric]
+* Prevent overrunning the file buffer [Tantric]
+(eg: loading a game cover image that's too big).
 
 [1.6.0 - January 17, 2019]
 * New color palettes added:
