@@ -12,6 +12,12 @@ FCE Ultra RX is a modified port of the FCE Ultra Nintendo Entertainment
 system for x86 (Windows/Linux) PCs. With it you can play NES games on your 
 Wii/GameCube.
 
+NOTE FROM @saulfabregwiivc: This is a mod made by me for add a proper
+autoboot game/ROM feature when loading from the Homebrew Channel (HBC)
+or when loading via a DOL forwarder with meta.xml support (thanks to
+@FIX94).
+Original by @niuus, mod by @saulfabregwiivc based on @dborth's work.
+
 -=[ Releases ]=-
 
 https://github.com/niuus/fceurx/releases
