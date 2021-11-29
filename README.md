@@ -1,4 +1,4 @@
-# FCE Ultra RX -
+# FCE Ultra RX
 https://github.com/niuus/FCEUltraRX
 
 Based/forked from:
