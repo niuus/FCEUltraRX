@@ -1,22 +1,23 @@
-¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
+# FCE Ultra RX
+https://github.com/niuus/FCEUltraRX
 
-                                 - FCE Ultra RX -
-			https://github.com/niuus/fceurx
-				Based/forked from:
-			https://github.com/dborth/fceugx
-				(Under GPL License)
-
-¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
+Based/forked from:
+https://github.com/dborth/fceugx
+(Under GPL License)
 
 FCE Ultra RX is a modified port of the FCE Ultra Nintendo Entertainment
-system for x86 (Windows/Linux) PCs. With it you can play NES games on your 
-Wii/GameCube.
+System for x86 (Windows/Linux) PCs. With it you can play NES games on
+your Wii/GameCube.
 
--=[ Releases ]=-
+FCE Ultra RX is a "homebrew application" which means you will need a way to run
+unsigned code on your Nintendo Wii. The best website for getting started with
+Wii homebrew is WiiBrew (www.wiibrew.org).
+
+## Releases
 
 https://github.com/niuus/fceurx/releases
 
--=[ Features ]=-
+## FEATURES
 
 * NES Compatibility based on FCEUX 2.2.3+ (git 21c0971)
 * Wiimote, Nunchuk, Wii Classic/Classic Pro, and Gamecube controller support
@@ -37,9 +38,8 @@ https://github.com/niuus/fceurx/releases
 * Open Source!
 
 
-×—–•—–•—–•—–• –•—–•—–•—–•—–•—–•—–•—–•—–•—–•— •—–•—–•—–•—–•—–•—–•—–•—-•—–•-–•¬
-|0O×øo·                         UPDATE HISTORY                        ·oø×O0|
-`¨•¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨'
+## UPDATE HISTORY
+
 [1.7.0 - January 19, 2019]
 * Prevent infinite loop loading cheats. [Tantric]
 * Go Back is no longer the first item highlighted for Settings. [Tantric]
@@ -96,9 +96,7 @@ the palettes included.
 * Fixed GC build.
 
 
-×—–•—–•—–•—–• –•—–•—–•—–•—–•—–•—–•—–•—–•—–•— •—–•—–•—–•—–•—–•—–•—–•—-•—–•-–•¬
-|0O×øo·                         SETUP & INSTALLATION                  ·oø×O0|
-`¨•¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨'
+## SETUP & INSTALLATION
 
 Unzip the archive. You will find the following folders inside:
 
@@ -108,12 +106,10 @@ apps			Contains Homebrew Channel ready files
 fceugx		Contains the directory structure required for storing
 				roms and saves (see below)
 
-------------------------------
-Loading / Running the Emulator:
-------------------------------
+## Loading / Running the Emulator:
 
-Wii - Via Homebrew Channel:
---------------------
+### Wii - Via Homebrew Channel:
+
 The most popular method of running homebrew on the Wii is through the Homebrew
 Channel. If you already have the channel installed, just copy over the apps 
 folder included in the archive into the root of your SD card.
@@ -123,21 +119,19 @@ Remember to also create the fceurx directory structure required. See above.
 If you haven't installed the Homebrew Channel yet, read about how to here:
 http://hbc.hackmii.com/
 
-Gamecube:
----------
+### GameCube:
+
 You can load FCEURX via sdload and an SD card in slot A, or by streaming 
 it to your Gamecube, or by booting a bootable DVD with FCEURX on it. 
 This document doesn't cover how to do any of that.
 
-----------------------------
-ROMS, Preferences, and Saves:
-----------------------------
+### ROMS, Preferences, and Saves:
 
 By default, roms are loaded from "fceugx/roms/" and saves / preferences are 
 stored in "fceugx/saves/".
 
-Wii
-----------
+## Wii
+
 On the Wii, you can load roms from SD card (Front SD or SD Gecko), USB, DVD,
 or SMB share. Note that if you are using the Homebrew Channel, to load from 
 USB, DVD, or SMB you will first have to load FCEURX from SD, and then set 
@@ -148,13 +142,13 @@ you will need to enter in the SMB share settings you haveve setup on your
 computer via the Settings menu. You will need to enter in the SMB Share IP, 
 Share Name, Share Username and Share Password.
 
-Gamecube
-------------
+## GameCube
+
 You can load roms from DVD or SD card. If you create a bootable 
 DVD of FCEURX you can put roms on the same DVD. You may save preferences and
 game data to SD or Memory Card.
 
--=[ Famicom Disk System (FDS) ]=-
+### Famicom Disk System (FDS)
 
 FCE Ultra RX supports loading FDS games. The FDS BIOS is required - put it 
 in your fceugx folder, and name it disksys.rom (should be 8 KB in size).
@@ -163,7 +157,7 @@ can be changed under Controller Configuration ('Special' button).
 Compatibility is limited, so check that the game in question works on 
 FCEUX for Windows before asking for help. 
 
--=[ 3D Game Support ]=-
+### 3D Game Support
 
 Supported Famicom 3D System games: 
 * Highway Star
@@ -177,7 +171,7 @@ Supported anaglyph games:
 * The 3-D Battles of World Runner (Tobidase Daisakusen)
 * Rad Racer
 
--[ Emulator Options ]-
+## Emulator Options
 
 Palette - The colors used while viewing the game:
           Default . loopy . quor . chris . matt
@@ -187,9 +181,7 @@ Palette - The colors used while viewing the game:
 Timing - NTSC or PAL (Depends if you're running a PAL or NTSC game)
 
 
-×—–•—–•—–•—–• –•—–•—–•—–•—–•—–•—–•—–•—–•—–•— •—–•—–•—–•—–•—–•—–•—–•—-•—–•-–•¬
-|0O×øo·                      UPDATE HISTORY (OLD)                     ·oø×O0|
-`¨•¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ ¨¨¨¨¨¨¨¨¨¨¨¨¨'
+## UPDATE HISTORY (OLD)
 
 [3.3.9 - December 10, 2016]
 
@@ -626,9 +618,7 @@ Timing - NTSC or PAL (Depends if you're running a PAL or NTSC game)
 * One makefile to make all versions
 
 
-¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
-
--=[ Credits ]=-
+## CREDITS
 
 			Coding & menu design		Tantric
 			Menu artwork			the3seashells
@@ -649,9 +639,19 @@ Timing - NTSC or PAL (Depends if you're running a PAL or NTSC game)
 
 			And many others who have contributed over the years!
  
-¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
+## LINKS
  
-                                  FCEURX Web Site
-                          https://github.com/niuus/fceurx
- 
-¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤°`°¤ø,¸,ø¤°`°¤ø,¸¸,ø¤
+                      FCEUltra RX Project Page
+                      https://github.com/niuus/FCEUltraRX
+
+                      FCEUltra GX Project Page
+                      https://github.com/dborth/fceugx
+
+                      Wii Homebrew Community
+                      www.wiibrew.org
+
+                      Free (Public Domain) ROMs
+                      www.pdroms.de
+
+                      Cheat Codes
+                      www.cheatzilla.com
