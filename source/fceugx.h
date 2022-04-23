@@ -21,6 +21,7 @@
 #define APPFOLDER 		"fceugx"
 #define PREF_FILE_NAME	"settingsRX.xml"
 
+#define MAXPATHLEN 1024
 #define NOTSILENT 0
 #define SILENT 1
 
@@ -88,14 +89,8 @@ struct SGCSettings
 	char	LastFileLoaded[MAXPATHLEN]; //Last file loaded filename
 	char	SaveFolder[MAXPATHLEN]; // Path to save files
 	char	CheatFolder[MAXPATHLEN]; // Path to cheat files
-	char	ScreenshotsFolder[MAXPATHLEN]; //Path to screenshots files
-	char	CoverFolder[MAXPATHLEN]; 	//Path to cover files
-	char	ArtworkFolder[MAXPATHLEN]; 	//Path to artwork files
-	char 	ImageFolder[MAXPATHLEN]; 	//Saved image folder path 
-	
-	char	Exit_Dol_File[MAXPATHLEN]; // Exit Path
-	char	LoaderName[20]; // Menu Loader Name
-	u32		Exit_Channel[2]; // Exit Channel
+	char	ScreenshotsFolder[MAXPATHLEN]; // Path to screenshot files
+	int		AutoloadGame;
 	
 	char	smbip[80];
 	char	smbuser[20];
