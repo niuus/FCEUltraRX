@@ -124,6 +124,7 @@ struct SGCSettings
 	int 	language;
 	int		PreviewImage;
 	int		DisplayVM;
+	int		TurboModeEnabled; // 0 - disabled, 1 - enabled
 };
 
 void ExitApp();
